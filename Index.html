@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de JavaScript</title>
+</head>
+<body>
+    <h1>Ejemplo de JavaScript</h1>
+    <script>
+        // Mostrar un mensaje de bienvenida
+        alert("¡Bienvenida y bienvenido a nuestro sitio web!");
+
+        // Inicialización de variables
+        let nombre = "Luna";
+        let edad = 25;
+        let numeroDeVentas = 50;
+        let saldoDisponible = 1000;
+
+        // Mensaje de error
+        let mensajeDeError = "¡Error! Completa todos los campos";
+
+        // Solicitar nombre y edad
+        nombre = prompt("¿Cuál es tu nombre?");
+        edad = prompt("¿Cuál es tu edad?");
+
+        // Verificar si la edad es válida
+        if (edad >= 18) {
+            alert("¡Puedes obtener tu licencia de conducir!");
+        } else {
+            alert(mensajeDeError);  // Mostrar mensaje de error si la edad no es válida
+        }
+    </script>
+</body>
+</html>
